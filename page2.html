@@ -10,30 +10,35 @@
     <form method="post" action="mailto:chloe.ardoise@gmail.com">
         <fieldset>
             <div>
-                <label for="mail"> Votre adresse-mail: </label>
-                <input type="email" name="user_mail" required>
+                <label for="mail"> Votre adresse-mail </label>
+                <input type="mail" name="user_mail" required>
             </div>
             <div>
                 <label for="surname"> Nom de famille </label>
-                
+                <input type="name" name="user_surname" required>
             </div>
-        </fieldset>
-        <fieldset>
+            <div>
+                <label for="name"> Prénom </label>
+                <input type="name" name="user_name" required>
+            </div>
             <div>
                 <label for="sex"> Sexe:</label>
                 <input type="radio" name="sexe" value="homme"> H
                 <input type="radio" name="sexe" value="femme"> F
-                <input type="radio" name="sexe" value="unknow">?
             </div>
             <div>
-                <label for="date"> Date:</label>
-                <input type="date">
+                <label for="number"> Téléphone </label>
+                <input type="number" name="user_number">
+            </div>
+            <div>
+                <label for="city"> Ville</label>
+                <input type="city" name="user_city">
+            </div>
+            <div>
+                <label for="text"> Votre message:</label>
+                <textarea name="user_text"></textarea>
             </div>
         </fieldset>
-        <div>
-            <label for="text"> Votre message:</label>
-            <textarea name="user_text"></textarea>
-        </div>
         <div>
             <input type="reset" value="Effacer" name="reset" >
         </div>
