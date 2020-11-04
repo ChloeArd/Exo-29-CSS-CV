@@ -17,6 +17,8 @@
     img {
         float: center;
         width: 200px;
+        border: 2px solid white;
+        float: center;
     }
     a {
         text-decoration-line: none;
