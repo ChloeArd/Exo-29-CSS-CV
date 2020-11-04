@@ -1,14 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Ramaraja&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
     body {
-        background-color: #80E3E3;
-        font-family: 'Redressed', cursive;
+        background-color: #E7ECF0;
+        font-family: 'Slabo 27px', serif;
+        font-size: 20px;
     }
     h1 {
         font-weight: bold;
-        background-color: #C7D4D4;
-        color: white;
-        
+        text-align: center;
     }
     h2 {
         text-decoration-line: underline;
+        text-align: center;
+        background-color: #ADB6B6;
+        color: white;
+    }
+    img {
+        float: center;
+        width: 200px;
+    }
+    a {
+        text-decoration-line: none;
+        color: #434747;
+    }
+    .nom {
+        font-size: 40px;
+        text-transform: uppercase;
+        background-color: #2C91E1;
+    }
+    .donnée {
+        border: 4px dotted #ADB6B6;
+        background-color: #2C91E1;
+        height: 1200px;
+        width: 300px;
+    }
+    .étude {
+        position: relative;
+        width: 1190px;
+        height: 1200px;
+        float: right;
+        float: top;
+        paddind-top: 20px;
+    }
+    ul {
+        list-style-type: square;
+    }
+    span {
+        font-weight: bold;
     }
