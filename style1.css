@@ -28,22 +28,28 @@
         background-color: #2C91E1;
     }
     .donnée {
-        border: 4px dotted #ADB6B6;
+        border: 4px;
         background-color: #2C91E1;
         height: 1200px;
         width: 300px;
+        box-shadow: 8px 6px 10px darkgrey;
+        padding: 20px;
     }
     .étude {
         position: relative;
-        width: 1190px;
-        height: 1200px;
+        width: 1160px;
         float: right;
         float: top;
-        paddind-top: 20px;
     }
-    ul {
+    li {
         list-style-type: square;
     }
     span {
+        font-weight: bold;
+    }
+    li:nth-child(even) {
+        list-style-type: none;
+    }
+    li:nth-child(odd) {
         font-weight: bold;
     }

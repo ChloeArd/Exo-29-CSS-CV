@@ -1,0 +1,14 @@
+
+    body {
+        background-color: #E7ECF0;
+        font-family: 'Slabo 27px', serif;
+        font-size: 20px;
+    }
+    a {
+        text-decoration-line: none;
+        color: black;
+        border: 1px solid black;
+    }
+    fieldset {
+        box-shadow: 8px 6px 10px darkgrey;
+    }
