@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&family=Redressed&display=swap');
+    body {
+        background-color: #80E3E3;
+        font-family: 'Redressed', cursive;
+    }
+    h1 {
+        font-weight: bold;
+        background-color: #C7D4D4;
+        color: white;
+        
+    }
+    h2 {
+        text-decoration-line: underline;
+    }
