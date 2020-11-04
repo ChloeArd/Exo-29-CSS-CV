@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Pour me contacter</title>
+</head>
+<body>
+    <a href="index.html"> Retour </a>
+
+    <form method="post" action="mailto:chloe.ardoise@gmail.com">
+        <fieldset>
+            <div>
+                <label for="mail"> Votre adresse-mail: </label>
+                <input type="email" name="user_mail" required>
+            </div>
+            <div>
+                <label for="surname"> Nom de famille </label>
+                
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <label for="sex"> Sexe:</label>
+                <input type="radio" name="sexe" value="homme"> H
+                <input type="radio" name="sexe" value="femme"> F
+                <input type="radio" name="sexe" value="unknow">?
+            </div>
+            <div>
+                <label for="date"> Date:</label>
+                <input type="date">
+            </div>
+        </fieldset>
+        <div>
+            <label for="text"> Votre message:</label>
+            <textarea name="user_text"></textarea>
+        </div>
+        <div>
+            <input type="reset" value="Effacer" name="reset" >
+        </div>
+        <button type="submit" >Envoyer</button>
+    </form>
+
+</body>
+</html>
