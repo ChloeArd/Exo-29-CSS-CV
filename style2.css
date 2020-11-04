@@ -12,3 +12,10 @@
     fieldset {
         box-shadow: 8px 6px 10px darkgrey;
     }
+    h2 {
+        text-decoration-line: underline;
+        text-align: center;
+        background-color: #ADB6B6;
+        color: white;
+    }
+
