@@ -7,12 +7,15 @@
     h1 {
         font-weight: bold;
         text-align: center;
+        box-shadow: 8px 6px 10px darkgrey;
+        border-radius: 15px;
     }
     h2 {
         text-decoration-line: underline;
         text-align: center;
         background-color: #ADB6B6;
         color: white;
+        border-radius: 15px;
     }
     img {
         float: center;
@@ -23,6 +26,7 @@
     a {
         text-decoration-line: none;
         color: #434747;
+        cursor: grab;
     }
     .nom {
         font-size: 40px;
@@ -31,6 +35,7 @@
     }
     .donnée {
         border: 4px;
+        border-radius: 15px;
         background-color: #2C91E1;
         box-shadow: 8px 6px 10px darkgrey;
         padding: 20px;
@@ -45,10 +50,7 @@
         height: 60%;
         float: right;
     }
-    .étude, .donnée {
-        display: inline-block;
-        vertical-align: top;
-    }
+
     li {
         list-style-type: none;
     }
