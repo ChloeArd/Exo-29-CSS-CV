@@ -44,14 +44,17 @@
         float: top;
     }
     li {
-        list-style-type: square;
+        list-style-type: none;
     }
     span {
         font-weight: bold;
     }
-    li:nth-child(even) {
-        list-style-type: none;
+     .carre {
+        list-style-type: square;
     }
     li:nth-child(odd) {
         font-weight: bold;
+    }
+    i {
+        color: #0F4560;
     }
