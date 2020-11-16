@@ -1,69 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
-    body {
-        background-color: #E7ECF0;
-        font-family: 'Slabo 27px', serif;
-        font-size: 20px;
-    }
-    h1 {
-        font-weight: bold;
-        text-align: center;
-        box-shadow: 8px 6px 10px darkgrey;
-        border-radius: 15px;
-    }
-    h2 {
-        text-decoration-line: underline;
-        text-align: center;
-        background-color: #ADB6B6;
-        color: white;
-        border-radius: 15px;
-    }
-    img {
-        float: center;
-        width: 200px;
-        border: 2px solid white;
-        float: center;
-    }
-    a {
-        text-decoration-line: none;
-        color: #434747;
-        cursor: grab;
-    }
-    .nom {
-        font-size: 40px;
-        text-transform: uppercase;
-        background-color: #2C91E1;
-    }
-    .donnée {
-        border: 4px;
-        border-radius: 15px;
-        background-color: #2C91E1;
-        box-shadow: 8px 6px 10px darkgrey;
-        padding: 20px;
-        position:relative;
-        width:20%;
-        height:60%;
-        float: left;
-    }
-    .étude {
-        position: relative;
-        width:76%;
-        height: 60%;
-        float: right;
-    }
+body {
+    background-color: #E7ECF0;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+}
 
-    li {
-        list-style-type: none;
-    }
-    span {
-        font-weight: bold;
-    }
-     .carre {
-        list-style-type: square;
-    }
-    li:nth-child(odd) {
-        font-weight: bold;
-    }
-    i {
-        color: #0F4560;
-    }
+h1 {
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 8px 6px 10px darkgrey;
+    border-radius: 15px;
+}
+
+h2 {
+    text-decoration-line: underline;
+    text-align: center;
+    background-color: #ADB6B6;
+    color: white;
+    border-radius: 15px;
+}
+
+img {
+    float: center;
+    width: 200px;
+    border: 2px solid white;
+    float: center;
+}
+
+a {
+    text-decoration-line: none;
+    color: #434747;
+    cursor: grab;
+}
+
+.nom {
+    font-size: 40px;
+    text-transform: uppercase;
+    background-color: #2C91E1;
+}
+
+.donnée {
+    border: 4px;
+    border-radius: 15px;
+    background-color: #2C91E1;
+    box-shadow: 8px 6px 10px darkgrey;
+    padding: 20px;
+    position:relative;
+    width:20%;
+    height:60%;
+    float: left;
+}
+
+.étude {
+    position: relative;
+    width:76%;
+    height: 60%;
+    float: right;
+}
+
+li {
+    list-style-type: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+ .carre {
+    list-style-type: square;
+}
+
+li:nth-child(odd) {
+    font-weight: bold;
+}
+
+i {
+    color: #0F4560;
+}
 

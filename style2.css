@@ -1,24 +1,26 @@
+body {
+    background-color: #E7ECF0;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+}
 
-    body {
-        background-color: #E7ECF0;
-        font-family: 'Slabo 27px', serif;
-        font-size: 20px;
-    }
-    a {
-        text-decoration-line: none;
-        color: black;
-        border: 1px solid black;
-        cursor: grab;
-    }
-    fieldset {
-        box-shadow: 8px 6px 10px darkgrey;
-    }
-    h1 {
-        text-decoration-line: underline;
-        text-align: center;
-        background-color: #ADB6B6;
-        color: white;
-        box-shadow: 8px 6px 10px darkgrey;
-        border-radius: 15px;
-    }
+a {
+    text-decoration-line: none;
+    color: black;
+    border: 1px solid black;
+    cursor: grab;
+}
+
+fieldset {
+    box-shadow: 8px 6px 10px darkgrey;
+}
+
+h1 {
+    text-decoration-line: underline;
+    text-align: center;
+    background-color: #ADB6B6;
+    color: white;
+    box-shadow: 8px 6px 10px darkgrey;
+    border-radius: 15px;
+}
 
